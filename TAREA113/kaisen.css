@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(24, 21, 21);
+    color: aliceblue;
+}
+header{
+    background-color: rgb(139, 18, 18);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    padding: 30px;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    font-size: 25px;
+    font-style: normal;
+    color: black;
+    align-items: centerS;
+}
+.logo img{
+    height: 180px;
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(230, 134, 8);
+}
+a:link{
+    color: rgb(182, 156, 10);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:active{
+    color: rgb(11, 4, 71);
+}
+footer{
+    background-color: coral;
+}
+.menu{
+    position: absolute;
+    right: 50px;
+}
